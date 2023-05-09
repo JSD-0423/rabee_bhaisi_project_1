@@ -216,9 +216,10 @@ img {
 }
 
 select {
-  background-color: transparent;
+  background-color: var(--bg_default, #fff);
   border: none;
   width: 100%;
+  color: var(--body-text, #000);
 }
 .filter_sort_label {
   font-size: 0.6em;
