@@ -9,12 +9,12 @@ let courses = [
   {
     image: "./assets/images/css.webp",
     description: "Web Development Languages",
-    title: "Angular",
+    title: "CSS",
     author: "David Lee",
     rating: 70,
   },
   {
-    image: "./assets/images/angular.png",
+    image: "./assets/images/javascript.jpg",
     description: "Web Development Languages",
     title: "JavaScript",
     author: "Emily Chen",
@@ -70,10 +70,31 @@ let courses = [
     rating: 60,
   },
   {
-    image: "./assets/images/angular.png",
+    image: "./assets/images/html.png",
+    description: "Web Development Languages",
+    title: "HTML",
+    author: "Sarah Smith",
+    rating: 80,
+  },
+  {
+    image: "./assets/images/css.webp",
+    description: "Web Development Languages",
+    title: "CSS",
+    author: "David Lee",
+    rating: 70,
+  },
+  {
+    image: "./assets/images/javascript.jpg",
+    description: "Web Development Languages",
+    title: "JavaScript",
+    author: "Emily Chen",
+    rating: 80,
+  },
+  {
+    image: "./assets/images/jquery.png",
     description: "Frontend Frameworks and Libraries",
-    title: "Angular",
-    author: "Jessica Davis",
+    title: "jQuery",
+    author: "John Johnson",
     rating: 80,
   },
   {
@@ -81,6 +102,69 @@ let courses = [
     description: "Frontend Frameworks and Libraries",
     title: "Angular",
     author: "Jessica Davis",
+    rating: 75,
+  },
+  {
+    image: "./assets/images/react.webp",
+    description: "Frontend Frameworks and Libraries",
+    title: "React",
+    author: "Daniel Brown",
+    rating: 80,
+  },
+  {
+    image: "./assets/images/vuejs.jpeg",
+    description: "Frontend Frameworks and Libraries",
+    title: "Vue.js",
+    author: "Ava Jones",
+    rating: 75,
+  },
+  {
+    image: "./assets/images/nodejs.webp",
+    description: "Backend Frameworks and Libraries",
+    title: "Node.js",
+    author: "Micheal Kim",
+    rating: 80,
+  },
+  {
+    image: "./assets/images/expressjs.webp",
+    description: "Backend Frameworks and Libraries",
+    title: "Express.js",
+    author: "Sophia Rodriguez",
+    rating: 80,
+  },
+  {
+    image: "./assets/images/ruby.jpeg",
+    description: "Backend Frameworks and Libraries",
+    title: "Ruby and Rails",
+    author: "William Lee",
+    rating: 60,
+  },
+  {
+    image: "./assets/images/html.png",
+    description: "Web Development Languages",
+    title: "HTML",
+    author: "Sarah Smith",
+    rating: 80,
+  },
+  {
+    image: "./assets/images/css.webp",
+    description: "Web Development Languages",
+    title: "CSS",
+    author: "David Lee",
+    rating: 70,
+  },
+  {
+    image: "./assets/images/javascript.jpg",
+    description: "Web Development Languages",
+    title: "JavaScript",
+    author: "Emily Chen",
+    rating: 80,
+  },
+  {
+    image: "./assets/images/jquery.png",
+    description: "Frontend Frameworks and Libraries",
+    title: "jQuery",
+    author: "John Johnson",
     rating: 80,
   },
   {
@@ -88,12 +172,117 @@ let courses = [
     description: "Frontend Frameworks and Libraries",
     title: "Angular",
     author: "Jessica Davis",
+    rating: 75,
+  },
+  {
+    image: "./assets/images/react.webp",
+    description: "Frontend Frameworks and Libraries",
+    title: "React",
+    author: "Daniel Brown",
     rating: 80,
+  },
+  {
+    image: "./assets/images/vuejs.jpeg",
+    description: "Frontend Frameworks and Libraries",
+    title: "Vue.js",
+    author: "Ava Jones",
+    rating: 75,
+  },
+  {
+    image: "./assets/images/nodejs.webp",
+    description: "Backend Frameworks and Libraries",
+    title: "Node.js",
+    author: "Micheal Kim",
+    rating: 80,
+  },
+  {
+    image: "./assets/images/expressjs.webp",
+    description: "Backend Frameworks and Libraries",
+    title: "Express.js",
+    author: "Sophia Rodriguez",
+    rating: 80,
+  },
+  {
+    image: "./assets/images/ruby.jpeg",
+    description: "Backend Frameworks and Libraries",
+    title: "Ruby and Rails",
+    author: "William Lee",
+    rating: 60,
+  },
+  {
+    image: "./assets/images/html.png",
+    description: "Web Development Languages",
+    title: "HTML",
+    author: "Sarah Smith",
+    rating: 80,
+  },
+  {
+    image: "./assets/images/css.webp",
+    description: "Web Development Languages",
+    title: "CSS",
+    author: "David Lee",
+    rating: 70,
+  },
+  {
+    image: "./assets/images/javascript.jpg",
+    description: "Web Development Languages",
+    title: "JavaScript",
+    author: "Emily Chen",
+    rating: 80,
+  },
+  {
+    image: "./assets/images/jquery.png",
+    description: "Frontend Frameworks and Libraries",
+    title: "jQuery",
+    author: "John Johnson",
+    rating: 80,
+  },
+  {
+    image: "./assets/images/angular.png",
+    description: "Frontend Frameworks and Libraries",
+    title: "Angular",
+    author: "Jessica Davis",
+    rating: 75,
+  },
+  {
+    image: "./assets/images/react.webp",
+    description: "Frontend Frameworks and Libraries",
+    title: "React",
+    author: "Daniel Brown",
+    rating: 80,
+  },
+  {
+    image: "./assets/images/vuejs.jpeg",
+    description: "Frontend Frameworks and Libraries",
+    title: "Vue.js",
+    author: "Ava Jones",
+    rating: 75,
+  },
+  {
+    image: "./assets/images/nodejs.webp",
+    description: "Backend Frameworks and Libraries",
+    title: "Node.js",
+    author: "Micheal Kim",
+    rating: 80,
+  },
+  {
+    image: "./assets/images/expressjs.webp",
+    description: "Backend Frameworks and Libraries",
+    title: "Express.js",
+    author: "Sophia Rodriguez",
+    rating: 80,
+  },
+  {
+    image: "./assets/images/ruby.jpeg",
+    description: "Backend Frameworks and Libraries",
+    title: "Ruby and Rails",
+    author: "William Lee",
+    rating: 60,
   },
 ];
 
 const list = document.getElementById("list");
-const btnDarkMode = document.getElementById("btn_dark_mode");
+const btnDarkMode = document.getElementById("btn_night_mode");
 
 btnDarkMode.addEventListener("click", darkModeToggle);
 
@@ -101,8 +290,9 @@ let darkMode = 0;
 
 const cardFactory = (course) => {
   // create card element
-  const card = document.createElement("div");
+  const card = document.createElement("a");
   card.className = "card";
+  card.href = "./details/index.html";
 
   // create image element
   const img = document.createElement("img");

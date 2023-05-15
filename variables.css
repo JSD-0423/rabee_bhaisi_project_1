@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;600;800&display=swap");
 :root {
   --brand-primary: #0768ac;
   --brand-secondary: #03c180;
@@ -9,5 +8,5 @@
   --body-text: #333;
   --heart-color: #dc143c;
 
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }

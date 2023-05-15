@@ -5,6 +5,26 @@
   .icon {
     margin-right: 8px;
   }
+  #control_section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  #search_container {
+    display: flex;
+    padding: 16px 8px;
+    align-self: center;
+    border-bottom: none;
+    border-right: 1px solid var(--lines-color, #dfdfdf);
+    width: 100%;
+    border-radius: 0px;
+  }
+  .filter_sort_container {
+    width: 40%;
+  }
+  .filter_sort {
+    padding: 0px 8px;
+  }
 }
 @media screen and (max-width: 375px) {
   #list {

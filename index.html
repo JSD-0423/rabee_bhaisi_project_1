@@ -8,58 +8,38 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="media.css" />
     <script src="./script.js" defer></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      defer
+    ></script>
     <title>Rabee's courses</title>
   </head>
   <body>
-    <header>
-      <div>
-        <a href="#">Web Topics</a>
-        <div class="button_area">
-          <button id="btn_dark_mode" class="outlined_button" type="button">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon ionicon"
-              viewBox="0 0 512 512"
-            >
-              <path
-                d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="32"
-              />
-            </svg>
-            <p>Dark mode</p>
-          </button>
-          <button id="btn_favorite" class="outlined_button" type="button">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon ionicon"
-              viewBox="0 0 512 512"
-            >
-              <path
-                d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="32"
-              />
-            </svg>
-            <p>Favorite</p>
-          </button>
-        </div>
-      </div>
-      <div id="welcome_content">
-        <div>
-          <p id="welcome_phrase">Welcome to our website!</p>
-          <p id="normal_paragraph">
-            We have new design that's fresh, modern, and easy to use.
-          </p>
-        </div>
+    <header class="container header-container">
+      <h1><a class="main-title" href="../index.html">Web Topics</a></h1>
+      <div class="control-buttons">
+        <button id="btn_night_mode" type="button" class="outlined-button">
+          <ion-icon name="moon-outline"></ion-icon>Dark Mode
+        </button>
+        <button id="btn_fav" type="button" class="outlined-button">
+          <ion-icon name="heart-outline"></ion-icon>Favourites
+        </button>
       </div>
     </header>
+    <div class="pentagon-container">
+      <div class="pentagon">
+        <div class="pentagon-content">
+          <h2 class="welcome-header">Welcome to our website!</h2>
+          <p>We have new design that's fresh, modern, and easy to use.</p>
+        </div>
+      </div>
+    </div>
     <main>
       <section id="control_section">
         <div id="search_container">
@@ -84,7 +64,11 @@
               d="M338.29 338.29L448 448"
             />
           </svg>
-          <p>Search the website...</p>
+          <input
+            id="search_query"
+            type="search"
+            placeholder="Search the website..."
+          />
         </div>
         <div class="filter_sort_container">
           <div class="sort filter_sort">
@@ -96,8 +80,8 @@
               <option value="rating">Rating</option>
             </select>
           </div>
-          <div class="filter_sort">
-            <label class="filter_sort_label" for="filter">filter by:</label>
+          <div class="filter filter_sort">
+            <label class="filter_sort_label" for="filter">Filter by:</label>
             <select name="filter" id="filter">
               <option value="default">Default</option>
               <option value="5">5-star</option>
@@ -110,7 +94,7 @@
         </div>
       </section>
       <section id="body_section">
-        <h2>"24" Web Topics Found</h2>
+        <p>"24" Web Topics Found</p>
         <div id="list"></div>
       </section>
     </main>
