@@ -1,280 +1,280 @@
 let courses = [
   {
     image: "./assets/images/html.png",
-    description: "Web Development Languages",
+    subtitle: "Web Development Languages",
     title: "HTML",
     author: "Sarah Smith",
     rating: 80,
   },
   {
     image: "./assets/images/css.webp",
-    description: "Web Development Languages",
+    subtitle: "Web Development Languages",
     title: "CSS",
     author: "David Lee",
     rating: 70,
   },
   {
     image: "./assets/images/javascript.jpg",
-    description: "Web Development Languages",
+    subtitle: "Web Development Languages",
     title: "JavaScript",
     author: "Emily Chen",
     rating: 80,
   },
   {
     image: "./assets/images/jquery.png",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "jQuery",
     author: "John Johnson",
     rating: 80,
   },
   {
     image: "./assets/images/angular.png",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "Angular",
     author: "Jessica Davis",
     rating: 75,
   },
   {
     image: "./assets/images/react.webp",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "React",
     author: "Daniel Brown",
     rating: 80,
   },
   {
     image: "./assets/images/vuejs.jpeg",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "Vue.js",
     author: "Ava Jones",
     rating: 75,
   },
   {
     image: "./assets/images/nodejs.webp",
-    description: "Backend Frameworks and Libraries",
+    subtitle: "Backend Frameworks and Libraries",
     title: "Node.js",
     author: "Micheal Kim",
     rating: 80,
   },
   {
     image: "./assets/images/expressjs.webp",
-    description: "Backend Frameworks and Libraries",
+    subtitle: "Backend Frameworks and Libraries",
     title: "Express.js",
     author: "Sophia Rodriguez",
     rating: 80,
   },
   {
     image: "./assets/images/ruby.jpeg",
-    description: "Backend Frameworks and Libraries",
+    subtitle: "Backend Frameworks and Libraries",
     title: "Ruby and Rails",
     author: "William Lee",
     rating: 60,
   },
   {
     image: "./assets/images/html.png",
-    description: "Web Development Languages",
+    subtitle: "Web Development Languages",
     title: "HTML",
     author: "Sarah Smith",
     rating: 80,
   },
   {
     image: "./assets/images/css.webp",
-    description: "Web Development Languages",
+    subtitle: "Web Development Languages",
     title: "CSS",
     author: "David Lee",
     rating: 70,
   },
   {
     image: "./assets/images/javascript.jpg",
-    description: "Web Development Languages",
+    subtitle: "Web Development Languages",
     title: "JavaScript",
     author: "Emily Chen",
     rating: 80,
   },
   {
     image: "./assets/images/jquery.png",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "jQuery",
     author: "John Johnson",
     rating: 80,
   },
   {
     image: "./assets/images/angular.png",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "Angular",
     author: "Jessica Davis",
     rating: 75,
   },
   {
     image: "./assets/images/react.webp",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "React",
     author: "Daniel Brown",
     rating: 80,
   },
   {
     image: "./assets/images/vuejs.jpeg",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "Vue.js",
     author: "Ava Jones",
     rating: 75,
   },
   {
     image: "./assets/images/nodejs.webp",
-    description: "Backend Frameworks and Libraries",
+    subtitle: "Backend Frameworks and Libraries",
     title: "Node.js",
     author: "Micheal Kim",
     rating: 80,
   },
   {
     image: "./assets/images/expressjs.webp",
-    description: "Backend Frameworks and Libraries",
+    subtitle: "Backend Frameworks and Libraries",
     title: "Express.js",
     author: "Sophia Rodriguez",
     rating: 80,
   },
   {
     image: "./assets/images/ruby.jpeg",
-    description: "Backend Frameworks and Libraries",
+    subtitle: "Backend Frameworks and Libraries",
     title: "Ruby and Rails",
     author: "William Lee",
     rating: 60,
   },
   {
     image: "./assets/images/html.png",
-    description: "Web Development Languages",
+    subtitle: "Web Development Languages",
     title: "HTML",
     author: "Sarah Smith",
     rating: 80,
   },
   {
     image: "./assets/images/css.webp",
-    description: "Web Development Languages",
+    subtitle: "Web Development Languages",
     title: "CSS",
     author: "David Lee",
     rating: 70,
   },
   {
     image: "./assets/images/javascript.jpg",
-    description: "Web Development Languages",
+    subtitle: "Web Development Languages",
     title: "JavaScript",
     author: "Emily Chen",
     rating: 80,
   },
   {
     image: "./assets/images/jquery.png",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "jQuery",
     author: "John Johnson",
     rating: 80,
   },
   {
     image: "./assets/images/angular.png",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "Angular",
     author: "Jessica Davis",
     rating: 75,
   },
   {
     image: "./assets/images/react.webp",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "React",
     author: "Daniel Brown",
     rating: 80,
   },
   {
     image: "./assets/images/vuejs.jpeg",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "Vue.js",
     author: "Ava Jones",
     rating: 75,
   },
   {
     image: "./assets/images/nodejs.webp",
-    description: "Backend Frameworks and Libraries",
+    subtitle: "Backend Frameworks and Libraries",
     title: "Node.js",
     author: "Micheal Kim",
     rating: 80,
   },
   {
     image: "./assets/images/expressjs.webp",
-    description: "Backend Frameworks and Libraries",
+    subtitle: "Backend Frameworks and Libraries",
     title: "Express.js",
     author: "Sophia Rodriguez",
     rating: 80,
   },
   {
     image: "./assets/images/ruby.jpeg",
-    description: "Backend Frameworks and Libraries",
+    subtitle: "Backend Frameworks and Libraries",
     title: "Ruby and Rails",
     author: "William Lee",
     rating: 60,
   },
   {
     image: "./assets/images/html.png",
-    description: "Web Development Languages",
+    subtitle: "Web Development Languages",
     title: "HTML",
     author: "Sarah Smith",
     rating: 80,
   },
   {
     image: "./assets/images/css.webp",
-    description: "Web Development Languages",
+    subtitle: "Web Development Languages",
     title: "CSS",
     author: "David Lee",
     rating: 70,
   },
   {
     image: "./assets/images/javascript.jpg",
-    description: "Web Development Languages",
+    subtitle: "Web Development Languages",
     title: "JavaScript",
     author: "Emily Chen",
     rating: 80,
   },
   {
     image: "./assets/images/jquery.png",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "jQuery",
     author: "John Johnson",
     rating: 80,
   },
   {
     image: "./assets/images/angular.png",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "Angular",
     author: "Jessica Davis",
     rating: 75,
   },
   {
     image: "./assets/images/react.webp",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "React",
     author: "Daniel Brown",
     rating: 80,
   },
   {
     image: "./assets/images/vuejs.jpeg",
-    description: "Frontend Frameworks and Libraries",
+    subtitle: "Frontend Frameworks and Libraries",
     title: "Vue.js",
     author: "Ava Jones",
     rating: 75,
   },
   {
     image: "./assets/images/nodejs.webp",
-    description: "Backend Frameworks and Libraries",
+    subtitle: "Backend Frameworks and Libraries",
     title: "Node.js",
     author: "Micheal Kim",
     rating: 80,
   },
   {
     image: "./assets/images/expressjs.webp",
-    description: "Backend Frameworks and Libraries",
+    subtitle: "Backend Frameworks and Libraries",
     title: "Express.js",
     author: "Sophia Rodriguez",
     rating: 80,
   },
   {
     image: "./assets/images/ruby.jpeg",
-    description: "Backend Frameworks and Libraries",
+    subtitle: "Backend Frameworks and Libraries",
     title: "Ruby and Rails",
     author: "William Lee",
     rating: 60,
@@ -283,8 +283,11 @@ let courses = [
 
 const list = document.getElementById("list");
 const btnDarkMode = document.getElementById("btn_night_mode");
+const searchQuery = document.getElementById("search_query");
+const resultsTitle = document.getElementById("results_title");
 
 btnDarkMode.addEventListener("click", darkModeToggle);
+searchQuery.addEventListener("keydown", search);
 
 let darkMode = 0;
 
@@ -306,11 +309,12 @@ const cardFactory = (course) => {
   container.className = "card_container";
   card.appendChild(container);
 
-  // create description element
-  const description = document.createElement("p");
-  description.id = "description";
-  description.textContent = course.description;
-  container.appendChild(description);
+  // create subtitle element
+  const subtitle = document.createElement("p");
+  subtitle.id = "subtitle";
+  subtitle.className = "subtitle";
+  subtitle.textContent = course.subtitle;
+  container.appendChild(subtitle);
 
   // create title element
   const title = document.createElement("h4");
@@ -357,6 +361,8 @@ courses.map((course) => {
   list.appendChild(courseCard);
 });
 
+resultsTitle.innerText = `"${courses.length}" Web Topics Found`;
+
 function darkModeToggle() {
   if (!darkMode) {
     document.documentElement.style.setProperty("--bg_default", "#1a1a1a");
@@ -373,4 +379,23 @@ function darkModeToggle() {
     darkMode = 0;
     // window.location.reload();
   }
+}
+const searchCondition = (title, subtitle, query) =>
+  title.includes(query.toLowerCase()) ||
+  (subtitle.includes(query.toLowerCase()) && true);
+
+function search(e) {
+  list.innerHTML = "";
+  const selectedCourses = courses.filter((course) =>
+    searchCondition(
+      course.title.toLowerCase(),
+      course.subtitle.toLowerCase(),
+      e.target.value
+    )
+  );
+  resultsTitle.innerText = `"${selectedCourses.length}" Web Topics Found`;
+  selectedCourses.map((selected) => {
+    let courseCard = cardFactory(selected);
+    list.appendChild(courseCard);
+  });
 }

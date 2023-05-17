@@ -238,9 +238,15 @@ img {
   content: "★★★★★";
 }
 
-#description {
+.subtitle {
   font-size: 0.7em;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
   font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #title {
@@ -324,10 +330,12 @@ option {
   justify-content: center;
 }
 
-#body_section {
+.body-section {
   margin: 16px;
 }
-#body_section > p {
+.results-title {
+}
+.body-section > p {
   font-weight: 900;
   font-size: 1.3em;
   margin: 20px 0px;
